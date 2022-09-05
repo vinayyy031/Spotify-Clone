@@ -1,0 +1,103 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <!-- Top -->
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="Spotify">Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+    <!-- Body -->
+    <div class="container">
+        <div class="songList">
+            <h3>Best of <span>Punjabi Artists</span></h3>
+            <div>
+                <div class="songItem">
+                    <img src="Covers/1.jpg" class="cover" alt="1">
+                    <span class="songName">2 Asle</span>
+                    <span class="songListPlay"><span class="time">02:50</span></span>
+                    <img id="0" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/2.jpg" class="cover" alt="1">
+                    <span class="songName">Adhiya</span>
+                    <span class="songListPlay"><span class="time">02:57</span></span>
+                    <img id="1" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/3.jpg" class="cover" alt="1">
+                    <span class="songName">C Walk</span>
+                    <span class="songListPlay"><span class="time">02:45</span></span>
+                    <img id="2" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/4.jpg" class="cover" alt="1">
+                    <span class="songName">Yaar Jatt De</span>
+                    <span class="songListPlay"><span class="time">04:07</span></span>
+                    <img id="3" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/5.jpg" class="cover" alt="1">
+                    <span class="songName">Hanji Hanji</span>
+                    <span class="songListPlay"><span class="time">03:16</span></span>
+                    <img id="4" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/6.jpg" class="cover" alt="1">
+                    <span class="songName">Jealousy</span>
+                    <span class="songListPlay"><span class="time">03:14</span></span>
+                    <img id="5" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/7.jpg" class="cover" alt="1">
+                    <span class="songName">Koi Chakkar Nai</span>
+                    <span class="songListPlay"><span class="time">03:07</span></span>
+                    <img id="6" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/8.jpg" class="cover" alt="1">
+                    <span class="songName">Mexico</span>
+                    <span class="songListPlay"><span class="time">03:26</span></span>
+                    <img id="7" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/9.jpg" class="cover" alt="1">
+                    <span class="songName">Plug Talk</span>
+                    <span class="songListPlay"><span class="time">02:42</span></span>
+                    <img id="8" class="play_button" src="play.png">
+                </div>
+                <div class="songItem">
+                    <img src="Covers/10.jpg" class="cover" alt="1">
+                    <span class="songName">Radio</span>
+                    <span class="songListPlay"><span class="time">03:18</span></span>
+                    <img id="9" class="play_button" src="play.png">
+                </div>
+            </div>
+        </div>
+        <div class="bannerList"></div>
+    </div>
+    <!-- Bottom music player -->
+    <div class="bottom">
+        <input type="range" id="myProgressBar" class="myProgressBar" value="0" name="range" min="0" max="100">
+        <div id="icons">
+            <img id="back" src="backward-track.png">
+            <img id="play" src="play-button-arrowhead.png" >
+            <img id="forward" src="next.png">
+        </div>
+        <div id="songInfo">
+            <img src="playing.gif" id="gif" width="44px"><p id="masterSongInfo">2 Asle - Navaan Sandhu</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

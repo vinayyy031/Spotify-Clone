@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&family=Lobster&family=Noto+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    background-color: white;
+    height: 65px;
+    color: black;
+    align-items: center;
+    font-family: 'Noto Sans', sans-serif;
+}
+nav ul li{
+    padding: 0 12px;
+}
+.brand img{
+    height: 44px;
+    padding: 0px 8px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    font-family: 'Lobster', cursive;
+}
+.container{
+    min-height: 64.5vh;
+    background-color: black;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    margin: 0px auto;
+    width: 85%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+.songList h3 span{
+    font-size: 30px;
+}
+.bottom{
+    position: sticky;
+    height: 100px;
+    background-color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.myProgressBar{
+    cursor: pointer;
+    width: 80vh;
+}
+#icons img{
+    cursor: pointer;
+    margin: 10px 5px 0px 5px;
+}
+#forward{
+    height:15px;
+}
+#back{
+    height:17px;
+}
+#play{
+    height:18px;
+}
+.songItem{
+    cursor: pointer;
+    font-family: verdana;
+    height: 50px;
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    margin: 20px 0px;
+    color: white;
+    background-color: #222222;
+    align-items: center;
+    border-radius: 10px;
+}
+.play_button{
+    height: 25px;
+}
+.cover{
+    height: 50px;
+    margin-left: 10px;
+}
+.time{
+    font-size: 12px;
+}
+#songInfo{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Noto Sans', sans-serif;
+    height: 150px;
+}
+#songInfo img{
+    width: 60px;
+    opacity: 0;
+    transition:opacity 0.5s ease-in;
+}
